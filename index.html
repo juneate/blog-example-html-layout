@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Blog Design</title>
+        <meta name="description" content="This is our first shot at creating a 960px layout from a 12 column design.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/helpers.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <header class="bar-top">
+                <nav class="nav">
+                    <div class="logo"><img src="img/bitmaker.png" alt="Bitmaker Logo"></div>
+                    <div class="menu-right">
+                        <ul class="menu">
+                            <li><a href="index.html" title="Home">home</a></li>
+                            <li><a href="article.html" title="Articles">articles</a></li>
+                            <li><a href="lessons.html" title="Lessons">lessons</a></li>
+                            <li><a href="about.html" title="About">about</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="masthead">
+                </div>
+            </header>
+
+            <main class="main">
+                <article class="article">
+                    <header class="header">
+                        <h1>This is the main heading for this website, it may span many lines</h1>
+                        <p><time datetime="2015-04-29">Wednesday, April 29st, 2015</time></p>
+                    </header>
+
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                        <p>Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <em>labore et dolore</em> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                            <p rel="author"><a href="#">Some Person</a></p>
+                        </blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <strong>labore et dolore</strong> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <figure>
+                            <img src="img/1.jpg" alt="A stylized view of the subway">
+                            <figcaption>This is the caption for some image that's part of the article</figcaption>
+                        </figure>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <figure>
+                            <img src="img/2.jpg" alt="Some old rusted cars in the desert">
+                        </figure>
+                        <p>Lorem ipsum dolor amet, consectetur adipisicing, sed do eiusmod tempor incididunt magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <footer class="footer">
+                        <figure class="byline">
+                            <img src="img/bill.jpg" alt="The author, Bill Murray">
+                            <figcaption><a href="#" rel="author">Bill Murray</a></figcaption>
+                        </figure>
+                        <aside class="share">
+                            <p>Share This Via:</p>
+                            <ul>
+                                <li class="icon tw"><a href="http://twitter.com"><img src="img/twitter.png"></a></li>
+                                <li class="icon fb"><a href="http://facebook.com"><img src="img/facebook.png"></a></li>
+                                <li class="icon gg"><a href="http://google.com"><img src="img/google.png"></a></li>
+                            </ul>
+                        </aside>
+                    </footer>
+                </article>
+
+                <aside class="related">
+                    <h2>Related Content</h2>
+                    <ul class="linkset">
+                        <li><a href="#">This is a related article</a></li>
+                        <li><a href="#">Some other article I like</a></li>
+                        <li><a href="#">Here's more stuff you can read</a></li>
+                    </ul>
+                </aside>
+                    
+                <section class="comments">
+                    <header class="comment">
+                        <h2>Comments</h2>
+                        <form class="form-comment">
+                            <input type="text" name="yourname" placeholder="name to be displayed">
+                            <textarea name="comment" placeholder="your feedback is welcome"></textarea>
+                            <input type="text" name="email" placeholder="email (will not be displayed)">
+                            <button type="submit">submit</button>
+                        </form>
+                    </header>
+
+                    <ol class="commentors">
+                        <li>
+                            <div class="comment-body">
+                                <header><h4>John Doe</h4>
+                                <p><time datetime="2014-01-21">January 21st, 2015</time></p></header>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                                <button type="button" class="reply">reply</button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="comment-body">
+                                <header><h4>Jane Doe</h4>
+                                <p><time datetime="2014-01-21">January 21st, 2015</time></p></header>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                                <button type="button" class="reply">reply</button>
+                            </div>
+                            <ol class="replies">
+                                <li>
+                                    <div class="comment-body">
+                                        <header><h4>Janet Whatever</h4>
+                                        <p><time datetime="2014-01-21">January 21st, 2015</time></p></header>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                                        <button type="button" class="reply">reply</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="comment-body">
+                                        <header><h4>Jimmy Whomever</h4>
+                                        <p><time datetime="2014-01-21">January 21st, 2015</time></p></header>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                                        <button type="button" class="reply">reply</button>
+                                    </div>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <div class="comment-body">
+                                <header><h4>John Doe</h4>
+                                <p><time datetime="2014-01-21">January 21st, 2015</time></p></header>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                                <button type="button" class="reply">reply</button>
+                            </div>
+                        </li>
+                    </ol>
+                </section>
+            </main>
+
+            <footer class="bar-bottom">
+                <section class="about">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </section>
+                <section class="socialize">
+                    <h2>Socialize</h2>
+                    <ul class="connect">
+                        <li><a href="http://facebook.com/whatever">f</a></li>
+                        <li><a href="http://twitter.com/roccop">t</a></li>
+                        <li><a href="http://instagram.com/juneate">i</a></li>
+                        <li><a href="http://dribble.com/whatever">d</a></li>
+                        <li><a href="http://youtube.com/whatever">y</a></li>
+                    </ul>
+                </section>
+            </footer>
+
+        </div>
+    </body>
+</html>
+
+
