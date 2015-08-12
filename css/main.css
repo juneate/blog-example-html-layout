@@ -1,0 +1,90 @@
+body {
+	font-family: 'Noto Serif', Georgia, serif;
+	color: #222222;
+	font-size: 1em; /* 16px */
+	line-height: 1.5;
+}
+img {
+	max-width: 100%;
+}
+h1 {
+	font-family: Oswald, Arial, sans-serif;
+	font-size: 3em; /* 48px */
+	line-height: 1;
+	text-transform: uppercase;
+	margin: 0.33333333333333em 0;
+}
+p {
+	margin: 1em 0;
+}
+
+.container {
+	width: 60em; /* 960px */
+	margin: 0 auto;
+}
+
+.bar-top {
+	background-color: #756b67;
+	padding: 0 1em;
+}
+	.nav {
+		overflow: hidden;
+	}
+		.logo {
+			width: 33.33333333%;
+			float: left;
+		}
+		.menu-right {
+			float: right;
+		}
+		.menu li {
+			display: inline-block;
+		}
+
+.main {
+	/*background-color: blue;*/
+}
+	.article {
+		/*background-color: green;*/
+		overflow: hidden;
+	}
+		.article .header {
+			/*background-color: #E496B2;*/
+			padding: 0 1em;
+		}
+		.article .content {
+			/*background-color: #E44034;*/
+			width: 75%;
+			float: left;
+			padding: 0 1em;
+		}
+		.article .footer {
+			/*background-color: #E4A369;*/
+			width: 25%;
+			float: right;
+			padding: 0 1em;
+		}
+
+	.related {
+		/*background-color: red;*/
+		padding: 0 1em;
+	}
+	.comments {
+		background-color: #1c1e1e;
+		padding: 0 1em;
+	}
+
+.bar-bottom {
+	background-color: #e1e0e2;
+}
+
+
+
+
+
+
+
+
+
+
+
