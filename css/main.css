@@ -17,6 +17,13 @@ h1 {
 p {
 	margin: 1em 0;
 }
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
 
 .container {
 	width: 60em; /* 960px */
@@ -64,6 +71,39 @@ p {
 			float: right;
 			padding: 0 1em;
 		}
+			.byline figcaption {
+				text-align: center;
+				font: 300 2em Oswald, Helvetica;
+			}
+			.byline figcaption a {
+				color: inherit;
+			}
+
+			.icon {
+				width: 5em;
+				height: 5em;
+				margin: 0 auto;
+				background-color: #999;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 5em;
+			}
+			.icon img {
+				width: 60%;
+			}
+			.tw {
+				background-color: #35BFE4;
+			}
+			.gg {
+				background-color: #E43119;
+			}
+			.fb {
+				background-color: #2845E4;
+			}
+			.icon:hover {
+				background-color: #fff;
+			}
+
 
 	.related {
 		/*background-color: red;*/
@@ -72,11 +112,62 @@ p {
 	.comments {
 		background-color: #1c1e1e;
 		padding: 0 1em;
+		color: #EEE;
 	}
+		.form-comment input, .form-comment textarea {
+			border: none;
+			background-color: #fff;
+			padding: 1em;
+			width: 100%;
+			margin: 0.5em 0;
+		}
+		input[name="email"] {
+			width: 70%;
+		}
+		.form-comment button {
+			width: 20%;
+			margin-left: 9.5%;
+			padding: 1em;
+			background-color: #D5664D;
+			color: #fff;
+			border-radius: 0.5em;
+			border: none;
+		}
+
+
 
 .bar-bottom {
 	background-color: #e1e0e2;
 }
+
+
+.content>p:first-child {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.content>p:last-child:after {
+	content: " \03a6";
+}
+
+.content blockquote {
+	margin-left: 5em;
+}
+
+blockquote [rel="author"] {
+	text-align: right;
+}
+
+
+blockquote [rel="author"]:before {
+	content: "--- ";
+	color: red;
+}
+
+
+
+
+
 
 
 
