@@ -7,18 +7,29 @@ body {
 img {
 	max-width: 100%;
 }
-h1 {
+h1, h2 {
 	font-family: Oswald, Arial, sans-serif;
-	font-size: 3em; /* 48px */
 	line-height: 1;
-	text-transform: uppercase;
 	margin: 0.33333333333333em 0;
 }
+
+h1 {
+	font-size: 3em; /* 48px */
+	text-transform: uppercase;
+	margin: 0.5em 0;
+}
+h2 {
+	font-size: 1.5em; /* 48px */
+	color: #D5664D;
+}
+
+
 p {
 	margin: 1em 0;
 }
 a {
 	text-decoration: none;
+	color: #D5664D;
 }
 a:hover {
 	text-decoration: underline;
@@ -36,18 +47,35 @@ a:hover {
 }
 	.nav {
 		overflow: hidden;
+		height: 4em;
 	}
 		.logo {
 			width: 33.33333333%;
+			height: 100%;
 			float: left;
+			line-height: 4;
 		}
+			.logo img {
+				line-height: 4em;
+				vertical-align: middle;
+			}
 		.menu-right {
 			float: right;
 		}
 		.menu li {
 			display: inline-block;
+			padding: 0 1em;
+			line-height: 4em;
 		}
-
+		.menu li:last-child {
+			padding-right: 0;
+		}
+		.menu li a {
+			font-size: 1.5em;
+			font-family: Oswald, Arial, sans-serif;
+			color: #fff;
+			font-weight: 100;
+		}
 .main {
 	/*background-color: blue;*/
 }
@@ -71,12 +99,18 @@ a:hover {
 			float: right;
 			padding: 0 1em;
 		}
+			.byline img {
+				border-radius: 50%;
+			}
 			.byline figcaption {
 				text-align: center;
 				font: 300 2em Oswald, Helvetica;
 			}
 			.byline figcaption a {
 				color: inherit;
+			}
+			.share {
+				text-align: center;
 			}
 
 			.icon {
@@ -87,9 +121,12 @@ a:hover {
 				border-radius: 50%;
 				text-align: center;
 				line-height: 5em;
+				position: relative;
+				margin-bottom: 1em;
 			}
 			.icon img {
-				width: 60%;
+				padding-top: 20%;
+    			height: 80%;
 			}
 			.tw {
 				background-color: #35BFE4;
@@ -107,11 +144,11 @@ a:hover {
 
 	.related {
 		/*background-color: red;*/
-		padding: 0 1em;
+		padding: 1em;
 	}
 	.comments {
 		background-color: #1c1e1e;
-		padding: 0 1em;
+		padding: 1em;
 		color: #EEE;
 	}
 		.form-comment input, .form-comment textarea {
@@ -122,16 +159,34 @@ a:hover {
 			margin: 0.5em 0;
 		}
 		input[name="email"] {
-			width: 70%;
+			width: 77%;
+			float: left;
 		}
 		.form-comment button {
 			width: 20%;
-			margin-left: 9.5%;
+			margin-left: 2.5%;
 			padding: 1em;
 			background-color: #D5664D;
 			color: #fff;
 			border-radius: 0.5em;
 			border: none;
+			float: right;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+		.reply {
+			border: none;
+			border-radius: 0.3333333em;
+			background-color: #DDD;
+			float: right;
+		}
+		.comment {
+			overflow: hidden;
+			width: 75%;
+		}
+		.comment-body {
+			overflow: hidden;
+			width: 75%;
 		}
 
 
@@ -144,6 +199,7 @@ a:hover {
 .content>p:first-child {
 	font-size: 1.5em;
 	font-style: italic;
+	margin-top: 0;
 }
 
 .content>p:last-child:after {
@@ -161,13 +217,34 @@ blockquote [rel="author"] {
 
 blockquote [rel="author"]:before {
 	content: "--- ";
-	color: red;
 }
 
-
-
-
-
+.bar-bottom {
+	overflow: hidden;
+}
+.about {
+	width: 50%;
+	float: left;
+	padding: 1em;
+}
+.socialize {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding: 1em;
+}
+.connect li {
+	display: inline-block;
+}
+.connect li a {
+	font-family: Socialico;
+	font-size: 3em;
+	color: #D5664D;
+}
+.linkset {
+	list-style-type: disc;
+    padding-left: 1em;
+}
 
 
 
